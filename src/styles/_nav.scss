@@ -1,0 +1,29 @@
+nav {
+    display: flex;
+    min-height: 10vh;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav > button {
+    background: transparent;
+    cursor: pointer;
+    border: 2px solid rgb(65, 65, 65);
+    padding: 0.5rem;
+    transition: all 0.3s ease;
+}
+
+nav > button:hover {
+    background: hsla(240, 100%, 82%, 0.5);
+    color: white;
+}
+
+nav > button:active {
+    transform: translateY(5%);
+}
+
+@media (max-width: 810px) {
+    nav > button {
+        margin: auto;
+    }
+}

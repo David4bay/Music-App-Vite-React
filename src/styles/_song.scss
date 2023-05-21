@@ -1,0 +1,43 @@
+.song-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 60vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.song-container > img {
+    width: 320px;
+    min-width: 100px;
+    border-radius: 50%;
+    transform: rotate(0deg);
+    // animation: playing 8s linear infinite;
+    // transition: all ease-in-out;
+}
+
+.song-container > h2,h3 {
+    text-align: center;
+}
+
+.library > h2,h3,h4 {
+    text-align: center;
+}
+
+h2 {
+    padding: 3rem 1rem 1rem 1rem;
+    letter-spacing: 4px;
+}
+
+h3 {
+    font-size: 1rem;
+    letter-spacing: 2px;
+}
+
+// @keyframes playing {
+//     from {
+//         transform: rotate(0deg);
+//     }
+//     to {
+//         transform: rotate(360deg)
+//     }
+// }
